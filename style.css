@@ -26,16 +26,13 @@
 
   .card-title{
     padding: 1rem;
-    /* background-color: azure; */
-    box-shadow: 3px 3px black;
+    box-shadow: 1px 1px rgb(87, 87, 87);
     height: 100px;
   }
 
   .card-body{
     overflow-y:auto; 
     height: 100px;
-    /* max-height: 200px !important;
-    min-height: 150px !important; */
   }
 
   .card-footer{
