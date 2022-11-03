@@ -64,7 +64,7 @@
     <!-- cards -->
     <div class="album py-5 bg-light">
         <div class="container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-2 g-3 p-5">
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 p-5">
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
@@ -345,7 +345,7 @@
                         regionais que irão integrar o CRA-PR. Nosso grupo de integrantes da Chapa 2 tem trabalhado pela
                         nossa profissão juntamente com diversos outros profissionais quem tem dispensado apoio e esforço
                         voluntário adicional para tornar a Administração no Paraná cada vez mais forte. </p>
-    
+
                     <p>A Chapa 2 é a <b>InovADM – Gestão Inovadora</b> do CRA-PR, temos compromissos com a nossa
                         profissão e não com grupos de situação ou oposição, temos um grupo com Administradoras e
                         Administradores que representam todo o estado do Paraná que não só continuarão o legado de tudo
@@ -356,7 +356,7 @@
                         equilíbrio entre a quantidade de conselheiros titulares da capital paranaense e do interior do
                         nosso Estado. A decisão de cada um de nós é importante e temos influência positiva em nossa
                         região e principalmente nos rumos que queremos dar a nossa profissão. </p>
-    
+
                     <h3>COMPROMISSOS COM A PROFISSÃO</h3>
                     <h4>1º COMPROMISSO - CLUBE DE BENEFÍCIOS DE RETORNO REAL</h4>
                     No mínimo 100% de retorno da anuidade em benefícios.
@@ -385,7 +385,11 @@
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button"
-                    role="tab" aria-controls="profile" aria-selected="false">Profile</button>
+                    role="tab" aria-controls="profile" aria-selected="false">Sobre mim</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="projects-tab" data-bs-toggle="tab" data-bs-target="#projects" type="button"
+                    role="tab" aria-controls="projects" aria-selected="false">Projetos</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
@@ -397,20 +401,82 @@
             <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                 <div class="d-flex">
                     <div class="col-5">
-                        <img height="400" width="100" class="bd-placeholder-img card-img-top p-2" src="./assets/BIBI.jpg"
+                        <img height="400" width="100" style="object-fit: contain;"
+                            class="rounded border bd-placeholder-img card-img-top p-2" src="./assets/BIBI.jpg"
                             alt="Bibi">
                     </div>
-                    <div class="col-6 p-2">
+                    <div class="col-6 p-4 d-flex flex-column justify-content-between">
                         <h1 style="color:rgb(209, 66, 0);">Adm. Roselis Natalina Mazzuchetti</h1>
-                        <h4>Portfólio de realizações</h4>
-                        <a href="#">Entrar em contato</a>
+                        <ul>
+                            <li>Graduada em Administração</li>
+                            <li>Graduada em ciências contábeis</li>
+                            <li>graduada em teologia</li>
+                            <li>Especialista em Marketing, Recursos Humanos, Gestão Agroindustrial e Docência em Ensino Superior.</li>
+                            <li>Mestre em Gestão Agroindustrial. </li>
+                            <li>Mestre em Desenvolvimento Regional e Agronegócios</li>
+                            <li>Doutora em Desenvolvimento Regional.</li>
+                            <li>Doutora em Ciências Empresariais.</li>
+                            <li>PÓS-DOUTORA EM ADMINISTRAÇÃO</li>
+                            <li>Coordenadora de curso.</li>
+                            <li>Docente na Unespar Campus de Paranaguá</li>
+                            <li>Representante do CRA PR no Litoral</li>
+                            <li>Vice-presidente do CRA PR</li>
+                            <li>TRABALHOU EM DIVERSAS EMPRESAS COMO GESTORA</li>
+                            <li>CONSULTORA DE DIVERSAS EMPRESAS.</li>
+                            <li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4706876A9" target="_blank">Veja mais aqui</a></li>
+                        </ul>
+                        <button class="nav-link btn btn-sm btn-primary">Entrar em contato</button>
                     </div>
                 </div>
             </div>
             <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="d-flex">
+                    <div class="col-5">
+                        <img height="400" width="200" style="object-fit: contain;"
+                            class="rounded bd-placeholder-img card-img-top p-2 border rounded-left"
+                            src="./assets/bibi_perfil_2.jpg" alt="Bibi">
+                    </div>
+                    <div class="col-6 p-4 d-flex flex-column justify-content-between">
+                        <h1 style="color:rgb(209, 66, 0);">Sobre mim</h1>
+                        <h4 class="">Descobri meu amor pela profissão desde que iniciei meu curso de Administração.
+                            Hoje... trabalho e quero trabalhar muito mais pela minha profissão.</h4>
+                        <button class="nav-link btn btn-sm btn-primary">Entrar em contato</button>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="projects" role="tabpanel" aria-labelledby="projects-tab">
+                <div id="carouselExampleControls" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="2000">
+                        <img src="./assets/curriculo1.png" class="d-block w-100" alt="curriculo1">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/curriculo2.png" class="d-block w-100" alt="curriculo2">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/curriculo3.png" class="d-block w-100" alt="curriculo3">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/curriculo4.png" class="d-block w-100" alt="curriculo4">
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="./assets/curriculo5.png" class="d-block w-100" alt="curriculo5">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
 
             </div>
-            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
+
         </div>
     </div>
 </body>
