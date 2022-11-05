@@ -3,6 +3,10 @@
     width: 100%;
 }
 
+body{
+  padding: 2rem;
+}
+
 *{
   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
