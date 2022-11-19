@@ -11,15 +11,15 @@
 </head>
 <header>
     <nav class="navbar bg-dark">
-        <div class="container justify-content-space-between align-items-center">
-            <a class="navbar-brand" href="#">
-                <h3 class="text-white">Como votar</h3>
+        <div class="d-flex justify-content-around align-items-center">
+            <a class=" navlink" href="#myTab2Content">
+                Propostas
             </a>
-            <a class="navbar-brand" href="#">
-                <h1 class="text-white">CHAPA 21</h1>
-            </a>
-            <a class="navbar-brand" href="#">
-                <h3 class="text-white">Quem somos nós</h3>
+
+            <img src="./assets/inovADM_logoNeg.png" class="py-2" width="10%" alt="inovalogo">
+
+            <a class=" navlink" href="#quemsomosnos">
+                Conheça-nos
             </a>
         </div>
     </nav>
@@ -27,7 +27,7 @@
 
 <body>
 
-    <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <div class="pt-5 my-5 text-center border-bottom">
         <h1 class="display-4 fw-bold">Vote <span class="golden-number">2</span> para regional e <span
                 class="golden-number">1</span> para federal</h1>
         <div class="col-lg-6 mx-auto">
@@ -38,32 +38,33 @@
                 também na busca de mais ações que possam beneficiar os profissionais
                 Administradores do nosso estado e do Brasil.</p>
             <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
-                <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Entrar em contato</button>
+                <a id="#curriculo-roselis"><button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Entrar em contato</button></a>
                 <button type="button" class="btn btn-outline-secondary btn-lg px-4">Como votar?</button>
             </div>
         </div>
         <div class="overflow-hidden img-hidden">
-            <div class="container px-5 img-hidden-div">
-                <img src="./assets/chapa_21.jfif" class="img-fluid border rounded-3 shadow-lg" alt="Example image"
+            <div class=" img-hidden-div">
+                <img src="./assets/pqinova.png" class="img-fluid border rounded-3 shadow-lg" alt="Example image"
                     width="700" height="500" loading="lazy">
             </div>
         </div>
     </div>
 
-    <div class="px-4 text-center">
-        <img class="d-block mx-auto mb-4" src="./assets/logo-inicio.jpg" alt="" width="380">
+    <div class="text-center mx-2">
+        <img class="d-block mx-auto mb-4" src="./assets/capaLinkedin.png" alt="" width="100%">
         <h1 class="display-5 fw-bold">Não acredite em fake news!</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">Possui alguma dúvida? Estamos aqui para tira-lás. Entre em contato com a nossa chapa e conheça-nos de verdade</p>
-          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          </div>
+            <p class="lead mb-4">Possui alguma dúvida? Estamos aqui para tira-lás. Entre em contato com a nossa chapa e
+                conheça-nos de verdade</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            </div>
         </div>
-      </div>
+    </div>
 
     <!-- pre cards -->
-    
+
     <section class="text-center container">
-        
+
         <div class="row">
             <div class="col-lg-6 col-md-8 mx-auto">
                 <h1 class="fw-light">Quem somos nós?</h1>
@@ -75,6 +76,7 @@
             </div>
         </div>
     </section>
+
 
     <!-- Chapa 1 cards -->
 <div class="album py-5 bg-light">
@@ -122,13 +124,17 @@
 
     <!-- cards -->
     <div class="album py-5 bg-light">
+
+    <!-- chapa 2 cards -->
+    <div class="album py-5 bg-light" id="quemsomosnos">
+
         <div class="container">
             <h1>Chapa 2 - Regional</h1>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 p-5">
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/BIBI.jpg" alt="Bibi">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/BIBI.jpg" alt="Bibi">
                         <div class="card-title">
                             <h3>Adm. Roselis N. Mazzuchetti</h3>
                         </div>
@@ -137,7 +143,8 @@
                         </div>
                         <div class="d-flex justify-content-between align-items-center card-footer">
                             <div class="btn-group">
-                                <a href="#curriculo-roselis"><button type="button" class="btn btn-sm btn-outline-secondary">Ver currículo</button></a>
+                                <a href="#curriculo-roselis"><button type="button"
+                                        class="btn btn-sm btn-outline-secondary">Ver currículo</button></a>
                             </div>
                         </div>
                     </div>
@@ -145,7 +152,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/LUIZ-P.jpg" alt="LuizP">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/LUIZ-P.jpg" alt="LuizP">
                         <div class="card-title">
                             <h3>Adm. Luiz Pereira Pinheiro Junior</h3>
                         </div>
@@ -163,7 +170,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/ALADIM.jpg"
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/ALADIM.jpg"
                             alt="ALADIM">
                         <div class="card-title">
                             <h3>Adm. Aladim Ramires Godoy</h3>
@@ -182,7 +189,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/MIGUEL.jpg"
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/MIGUEL.jpg"
                             alt="Miguel">
                         <div class="card-title">
                             <h3>Adm. Miguel Borges dos Santos</h3>
@@ -200,7 +207,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/ANDERSON.jpg"
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/ANDERSON.jpg"
                             alt="Anderson">
                         <div class="card-title">
                             <h3>Adm. Anderson Michelin</h3>
@@ -218,7 +225,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/LUIZ-T.jpg" alt="LuizT">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/LUIZ-T.jpg" alt="LuizT">
                         <div class="card-title">
                             <h3>Adm. Luiz Tadeu Sottomaior</h3>
                         </div>
@@ -235,7 +242,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/MIURA.jpg" alt="Miura">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/MIURA.jpg" alt="Miura">
                         <div class="card-title">
                             <h3>Adm. Edson A. Miura</h3>
                         </div>
@@ -252,7 +259,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/LIZ.jpg" alt="Liz">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/LIZ.jpg" alt="Liz">
                         <div class="card-title">
                             <h3>Adm. Liz Rodrigues</h3>
                         </div>
@@ -269,8 +276,10 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
+
                         <img height="400" class="bd-placeholder-img card-img-top" src="./assets/claudemir.jpg"
                             alt="Claudemir">
+
                         <div class="card-title">
                             <h3>Adm. Claudemir José de Souza</h3>
                         </div>
@@ -288,7 +297,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/LEONIDAS.jpg"
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/LEONIDAS.jpg"
                             alt="Leonidas">
                         <div class="card-title">
                             <h3>Adm. Leônidas Lopes de Camargo</h3>
@@ -306,7 +315,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/JOICELI.jpg"
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/JOICELI.jpg"
                             alt="Joiceli">
                         <div class="card-title">
                             <h3>Adm. Joice Fabrício.</h3>
@@ -324,7 +333,7 @@
                 <!-- card begin -->
                 <div class="col">
                     <div class="card shadow-sm">
-                        <img height="400" class="bd-placeholder-img card-img-top" src="./assets/PAULO.jpg" alt="Paulo">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/PAULO.jpg" alt="Paulo">
                         <div class="card-title">
                             <h3>Adm. Paulo Eduardo Vizzotto</h3>
                         </div>
@@ -342,19 +351,65 @@
         </div>
     </div>
 
+    <!-- Chapa 1 cards -->
+    <div class="album py-5 bg-light">
+        <div class="container">
+            <h1>Chapa 1</h1>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-3 p-5">
+                <!-- card begin -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/GELSON.JPG"
+                            alt="Gelson">
+                        <div class="card-title">
+                            <h3>Adm. Gelson Uecker</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3 class="card-text">Titular</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center card-footer">
+                            <div class="btn-group">
+                                <a><button type="button" class="btn btn-sm btn-outline-secondary">Ver
+                                        currículo</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- card begin -->
+                <div class="col">
+                    <div class="card shadow-sm">
+                        <img height="400" class="bd-placeholder-img card-img-top border border-dark" src="./assets/PEDROSO.JPG"
+                            alt="Pedroso">
+                        <div class="card-title">
+                            <h3>Adm. Sérgio Francisco Pedroso</h3>
+                        </div>
+                        <div class="card-body">
+                            <h3>Suplente</h3>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center card-footer">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-sm btn-outline-secondary">Ver currículo</button>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <div class="container">
         <ul class="nav nav-tabs" id="myTab2" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="chapa1-tab" data-bs-toggle="tab" data-bs-target="#chapa1"
-                    type="button" role="tab" aria-controls="chapa1" aria-selected="true">Chapa 1 - Federal</button>
-            </li>
-            <li class="nav-item" role="presentation">
                 <button class="nav-link" id="chapa2-tab" data-bs-toggle="tab" data-bs-target="#chapa2" type="button"
                     role="tab" aria-controls="chapa2" aria-selected="false">Chapa 2 - Regional</button>
             </li>
-
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="chapa1-tab" data-bs-toggle="tab" data-bs-target="#chapa1"
+                    type="button" role="tab" aria-controls="chapa1" aria-selected="true">Chapa 1 - Federal</button>
+            </li>
         </ul>
 
         <div class="tab-content" id="myTab2Content">
@@ -396,16 +451,16 @@
                     <p><b>ESPAÇO</b> - Queremos firmar, por meio de leis, o real espaço do profissional de
                         Administração, apresentando projetos de lei junto ao congresso nacional e buscando apoio de
                         deputados e senadores. </p>
-                    
+
                     <p><b>Diante disso, FIRMAMOS NOSSOS COMPROMISSOS com os Administradores e Administradoras
-                        do Estado Paraná:</b></p>
-                        <ul>
-                            <li>Trabalhar para o reconhecimento e valorização da nossa profissão;</li>
-                            <li>Defender o espaço e a atuação do profissional de Administração;</li>
-                            <li>Estar próximos dos Administradores e Administradoras, buscando suas necessidades;</li>
-                            <li>Proporcionar capacitação e atualização;</li>
-                            <li>Informar mensalmente sobre a atuação destes conselheiros.</li>
-                        </ul>
+                            do Estado Paraná:</b></p>
+                    <ul>
+                        <li>Trabalhar para o reconhecimento e valorização da nossa profissão;</li>
+                        <li>Defender o espaço e a atuação do profissional de Administração;</li>
+                        <li>Estar próximos dos Administradores e Administradoras, buscando suas necessidades;</li>
+                        <li>Proporcionar capacitação e atualização;</li>
+                        <li>Informar mensalmente sobre a atuação destes conselheiros.</li>
+                    </ul>
                 </div>
             </div>
             <div class="tab-pane fade" id="chapa2" role="tabpanel" aria-labelledby="chapa2-tab">
@@ -448,6 +503,11 @@
         </div>
     </div>
 
+    <div class="text-center mx-2">
+        <img class="d-block mx-auto mb-4" src="./assets/capaLinkedin.png" alt="" width="100%">
+        <!-- <h1 class="display-5 fw-bold">Nossos compromissos</h1> -->
+    </div>
+
     <div class="container" id="curriculo-roselis">
         <h1>Currículos</h1>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
@@ -472,8 +532,9 @@
                     role="tab" aria-controls="projects" aria-selected="false">Projetos</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="propostas-tab" data-bs-toggle="tab" data-bs-target="#propostas" type="button"
-                    role="tab" aria-controls="propostas" aria-selected="false">Propostas de trabalho</button>
+                <button class="nav-link" id="propostas-tab" data-bs-toggle="tab" data-bs-target="#propostas"
+                    type="button" role="tab" aria-controls="propostas" aria-selected="false">Propostas de
+                    trabalho</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button"
@@ -510,7 +571,9 @@
                             <li><a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?metodo=apresentar&id=K4706876A9"
                                     target="_blank">Veja mais aqui</a></li>
                         </ul>
-                        <button class="nav-link btn btn-sm btn-primary"><a href="mailto:profbibi01@gmail.com?subject=Olá, vim pela chapa 21!" class="text-white">Entrar em contato</a></button>
+                        <button class="nav-link btn btn-sm btn-primary"><a
+                                href="mailto:profbibi01@gmail.com?subject=Olá, vim pela chapa 21!"
+                                class="text-white">Entrar em contato</a></button>
                     </div>
                 </div>
             </div>
